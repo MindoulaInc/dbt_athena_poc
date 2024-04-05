@@ -5,7 +5,7 @@ Welcome to your new dbt project!
 Configure AWS credentials locally in ~/.aws
 
 Try running the following commands:
-- dbt run --profiles.yml path/to/project/dbt_athena_poc/profiles.yml
+- dbt run --profiles.yml path/to/project/dbt_athena_poc/profiles.yml (note: by default profiles.yml is stored at ~/.dbt, not in the project root directory)
 - dbt test
 
 
