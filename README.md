@@ -2,8 +2,10 @@ Welcome to your new dbt project!
 
 ### Using the starter project
 
+Configure AWS credentials locally in ~/.aws
+
 Try running the following commands:
-- dbt run
+- dbt run --profiles.yml path/to/project/dbt_athena_poc/profiles.yml
 - dbt test
 
 
