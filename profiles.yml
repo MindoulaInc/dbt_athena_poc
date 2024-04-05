@@ -1,0 +1,12 @@
+dbt_athena_poc:
+  outputs:
+    dev:
+      region_name: us-east-1
+      s3_data_dir: s3://mindoula-test-processing-20240322174914184100000001/data_dir
+      s3_staging_dir: s3://mindoula-test-processing-20240322174914184100000001/staging_dir
+      s3_tmp_table_dir: s3://mindoula-test-processing-20240322174914184100000001/tmp_table_dir
+      schema: dons_db 
+      threads: 8
+      type: athena
+      database: awsdatacatalog
+  target: dev
