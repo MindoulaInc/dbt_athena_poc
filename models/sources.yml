@@ -4,3 +4,5 @@ sources:
   - name: raw
     tables:
       - name: s_9_merged_member
+      - name: s_63_merged_medical
+      - name: s_63_merged_member
