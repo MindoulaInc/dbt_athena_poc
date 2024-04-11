@@ -1,6 +1,7 @@
 {{
   config(
     materialized = 'table',
+    schema = 'raw',
     table_type = 'iceberg'
     )
 }}
